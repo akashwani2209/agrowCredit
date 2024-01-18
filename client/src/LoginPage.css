@@ -1,0 +1,59 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #1a1a1a; /* Black Background */
+  color: #f1f1f1; /* Light Grey Text for Contrast */
+  line-height: 1.8;
+}
+
+.login {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: linear-gradient(145deg, #2c2c2c, #242424); /* Subtle Dark Gradient */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffb400; /* Yellow-Orange Text */
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 15px;
+  margin-top: 10px;
+  border: 2px solid #4d4d4d; /* Dark Grey Border */
+  border-radius: 8px;
+  background-color: #262626; /* Slightly Lighter Black for Input Fields */
+  color: #fff; /* White Text */
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  border-color: #ffb400; /* Yellow-Orange Focus Color */
+  outline: none;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  background-color: #ffb400; /* Yellow-Orange Background */
+  color: #1a1a1a; /* Black Text */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #e6a300; /* Darker Yellow-Orange on Hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
